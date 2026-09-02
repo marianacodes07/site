@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Do Zero ao Seu Primeiro Site Profissional</title>
+<meta name="description" content="Aprenda a criar sites profissionais do zero, sem precisar de experiência, e descubra como transformar seus primeiros projetos em uma fonte de renda.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="topo">
+  <div class="wrap header-inner">
+    <a href="#topo" class="brand">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span class="brand-text">do zero ao seu<br>primeiro site</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#trilha">A trilha</a>
+      <a href="#construir">O que você constrói</a>
+      <a href="#renda">Gerar renda</a>
+      <a href="#preco">Investimento</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+
+    <a href="#preco" class="btn btn-primary btn-header">Quero começar</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow-badge">Comece do zero, mesmo sem experiência</p>
+        <h1>Você não precisa saber nada de código<br>para sair daqui <em>publicando sites de verdade</em>.</h1>
+        <p class="hero-sub">Um passo a passo completo — do primeiro "Olá, mundo" até o site no ar — pra quem nunca escreveu uma linha de código e quer aprender uma habilidade que também paga as contas.</p>
+
+        <div class="hero-actions">
+          <a href="https://pay.kiwify.com.br/XJjb27p" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Quero criar meu primeiro site</a>
+          <a href="#trilha" class="btn btn-ghost">Ver a trilha completa ↓</a>
+        </div>
+
+        <div class="hero-proof">
+          <div class="proof-item"><strong>8</strong><span>módulos, do zero ao cliente</span></div>
+          <div class="proof-item"><strong>100%</strong><span>prático, projeto real</span></div>
+          <div class="proof-item"><strong>R$ 37,90</strong><span>acesso completo</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="editor-window">
+          <div class="editor-topbar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="editor-filename">meu-primeiro-site.html</span>
+          </div>
+          <pre class="editor-body"><code id="typedCode"></code><span class="cursor-blink">|</span></pre>
+        </div>
+        <div class="floating-tag tag-html">HTML</div>
+        <div class="floating-tag tag-css">CSS</div>
+        <div class="floating-tag tag-js">JS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE DE FRASES ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Comece do zero, mesmo sem experiência</span>
+      <span>Todo especialista um dia foi iniciante</span>
+      <span>Seu primeiro site está a um módulo de distância</span>
+      <span>Aprender a programar é aprender a criar</span>
+      <span>De aluno a freelancer</span>
+      <span>Comece do zero, mesmo sem experiência</span>
+      <span>Todo especialista um dia foi iniciante</span>
+      <span>Seu primeiro site está a um módulo de distância</span>
+      <span>Aprender a programar é aprender a criar</span>
+      <span>De aluno a freelancer</span>
+    </div>
+  </div>
+
+  <!-- ============ POR QUE ============ -->
+  <section class="intro">
+    <div class="wrap intro-grid">
+      <div class="intro-lead">
+        <h2>Você aprende criando, não decorando teoria.</h2>
+        <p>Esse curso existe pra uma pessoa só: quem olha pra um site e pensa "eu nunca vou saber fazer isso". Cada módulo entrega uma peça a mais do quebra-cabeça, até você fechar o curso com um site profissional publicado — e no ar, no seu nome.</p>
+      </div>
+      <ul class="intro-points">
+        <li><span class="point-num">01</span>Você aprende HTML, CSS e JavaScript na prática, construindo o tempo todo</li>
+        <li><span class="point-num">02</span>Nenhum pré-requisito. O curso parte do zero absoluto</li>
+        <li><span class="point-num">03</span>Você publica seu site de verdade, com endereço próprio na internet</li>
+        <li><span class="point-num">04</span>No final, você também aprende a conseguir os primeiros clientes</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ TRILHA / MÓDULOS ============ -->
+  <section class="trilha" id="trilha">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>A trilha, módulo a módulo</h2>
+        <p>Uma sequência pensada pra você nunca ficar perdido: cada módulo usa o que veio antes.</p>
+      </div>
+
+      <div class="timeline" id="timeline">
+
+        <article class="module" data-modulo="1">
+          <button class="module-head">
+            <span class="module-index">Módulo 1</span>
+            <span class="module-title">Comece do Zero</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Ferramentas que você vai usar</li>
+              <li>Instalando e configurando o VS Code</li>
+              <li>Como organizar a estrutura de um projeto</li>
+              <li>O papel do HTML, do CSS e do JavaScript</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module" data-modulo="2">
+          <button class="module-head">
+            <span class="module-index">Módulo 2</span>
+            <span class="module-title">HTML</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Estrutura de uma página</li>
+              <li>Textos, títulos e parágrafos</li>
+              <li>Imagens e links</li>
+              <li>Botões, formulários e seções</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module" data-modulo="3">
+          <button class="module-head">
+            <span class="module-index">Módulo 3</span>
+            <span class="module-title">CSS</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Cores, fontes e identidade visual</li>
+              <li>Layout com Flexbox e Grid</li>
+              <li>Construindo cards</li>
+              <li>Menus e botões com estilo próprio</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module" data-modulo="4">
+          <button class="module-head">
+            <span class="module-index">Módulo 4</span>
+            <span class="module-title">Responsividade</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Adaptando pra celular, tablet e desktop</li>
+              <li>Media queries na prática</li>
+              <li>Construindo um menu mobile</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module" data-modulo="5">
+          <button class="module-head">
+            <span class="module-index">Módulo 5</span>
+            <span class="module-title">JavaScript</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Variáveis e funções</li>
+              <li>Eventos e interações</li>
+              <li>Dando vida ao menu mobile</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module" data-modulo="6">
+          <button class="module-head">
+            <span class="module-index">Módulo 6</span>
+            <span class="module-title">Projeto Completo</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Criando um site profissional do zero</li>
+              <li>Design, conteúdo e identidade</li>
+              <li>Responsividade e interações no projeto real</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module" data-modulo="7">
+          <button class="module-head">
+            <span class="module-index">Módulo 7</span>
+            <span class="module-title">Coloque no Ar</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Usando o GitHub</li>
+              <li>Publicando com GitHub Pages</li>
+              <li>Atualizando seu site depois do ar</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="module module-highlight" data-modulo="8">
+          <button class="module-head">
+            <span class="module-index">Módulo 8</span>
+            <span class="module-title">Faça Disso uma Renda</span>
+            <span class="module-toggle">+</span>
+          </button>
+          <div class="module-body">
+            <ul>
+              <li>Onde encontrar seus primeiros clientes</li>
+              <li>Como prospectar pelo Instagram e WhatsApp</li>
+              <li>Montando seu portfólio</li>
+              <li>Quanto cobrar, proposta e negociação</li>
+              <li>Do primeiro contato até a entrega do projeto</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ O QUE VOCÊ CONSTRÓI ============ -->
+  <section class="construir" id="construir">
+    <div class="wrap construir-grid">
+      <div class="construir-copy">
+        <p class="eyebrow-badge eyebrow-dark">Todo especialista um dia foi iniciante</p>
+        <h2>No fim do curso você não vai ter só aprendido. Você vai ter <em>publicado</em>.</h2>
+        <p>O objetivo é simples e direto: <strong>aprender → criar → publicar → conseguir clientes → gerar renda</strong>. Cada etapa da trilha empurra você pra frente até chegar num site profissional, no ar, com o seu nome.</p>
+      </div>
+      <ol class="objetivo-linha">
+        <li>Aprender</li>
+        <li>Criar</li>
+        <li>Publicar</li>
+        <li>Conseguir clientes</li>
+        <li>Gerar renda</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ RENDA ============ -->
+  <section class="renda" id="renda">
+    <div class="wrap renda-grid">
+      <div class="renda-card">
+        <span class="renda-tag">Módulo 8</span>
+        <h3>Criar sites é uma habilidade. Cobrar por ela é outra — e a gente ensina as duas.</h3>
+        <p>De nada adianta saber criar um site se você não sabe encontrar quem precisa de um. Por isso o curso não termina no código: ele termina com você sabendo prospectar, precificar e fechar o primeiro projeto pago.</p>
+        <div class="renda-chips">
+          <span>Prospecção</span>
+          <span>Portfólio</span>
+          <span>Proposta</span>
+          <span>Precificação</span>
+          <span>Negociação</span>
+          <span>Entrega</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PREÇO ============ -->
+  <section class="preco" id="preco">
+    <div class="wrap">
+      <div class="preco-card">
+        <div class="preco-info">
+          <p class="eyebrow-badge">Seu primeiro site está a um clique de distância</p>
+          <h2>Acesso completo à trilha, do zero à sua primeira renda.</h2>
+          <ul class="preco-lista">
+            <li>Os 8 módulos completos, do absoluto zero ao primeiro cliente</li>
+            <li>Um projeto real construído do início ao fim</li>
+            <li>Publicação do seu site com GitHub Pages</li>
+            <li>O módulo de prospecção e precificação para cobrar pelo seu trabalho</li>
+          </ul>
+        </div>
+
+        <div class="preco-box">
+          <span class="preco-label">Investimento único</span>
+          <span class="preco-valor"><small>R$</small>37<span class="centavos">,90</span></span>
+          <span class="preco-obs">Acesso vitalício, sem mensalidade</span>
+          <a href="https://pay.kiwify.com.br/XJjb27p" target="_blank" rel="noopener" class="btn btn-primary btn-lg btn-full">Quero começar agora</a>
+          <span class="preco-garantia">🔒 Compra 100% segura</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="wrap faq-wrap">
+      <div class="section-head">
+        <h2>Perguntas frequentes</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            Preciso saber alguma coisa de programação antes?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Não. O curso começa do zero absoluto, no Módulo 1, e explica cada ferramenta antes de usá-la.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Em quanto tempo eu consigo publicar meu primeiro site?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Você constrói e publica um projeto ainda dentro da trilha, no Módulo 6 e 7 — sem precisar terminar o curso inteiro pra ver um resultado no ar.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            O curso realmente ensina a conseguir clientes?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Sim. O Módulo 8 é dedicado inteiramente a isso: prospecção, portfólio, precificação, proposta e entrega.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            O acesso tem prazo de validade?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer"><p>Não, o acesso é vitalício. Você entra quando quiser e revisita qualquer módulo sempre que precisar.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="cta-final">
+    <div class="wrap">
+      <p class="eyebrow-badge eyebrow-dark">De aluno a freelancer</p>
+      <h2>Daqui a alguns módulos, "eu não sei nada de código" vira sua história antiga.</h2>
+      <a href="https://pay.kiwify.com.br/XJjb27p" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Quero criar meu primeiro site — R$ 37,90</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ CTA FLUTUANTE ============ -->
+<a href="#preco" class="floating-cta" id="floatingCta">
+  Começar por R$ 37,90
+</a>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="brand">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span class="brand-text">do zero ao seu<br>primeiro site</span>
+    </div>
+    <p class="footer-note">Aprenda → Crie → Publique → Consiga clientes → Gere renda.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
